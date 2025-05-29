@@ -1,0 +1,10 @@
+<div class="weekday-picker">
+  <label *ngFor="let day of weekdays">
+    <input
+      type="checkbox"
+      [checked]="selectedDays.includes(day)"
+      (change)="toggleDay(day)"
+    />
+    {{ day }}
+  </label>
+</div>

@@ -1,0 +1,14 @@
+.weekday-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: bisque;
+  /* width: 40px; */
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
