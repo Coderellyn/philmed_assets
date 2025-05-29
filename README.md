@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Inventory
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
@@ -61,3 +62,6 @@ For more information on using the Angular CLI, including detailed command refere
 =======
 # assets
 >>>>>>> bed966df50dea48b0bf047368f800f521faf608f
+=======
+# philmed_assets
+>>>>>>> 9a7e0ff0f1ade3047d6fa8f1922aec4d4a55f626
