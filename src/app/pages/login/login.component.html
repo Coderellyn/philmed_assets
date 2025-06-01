@@ -12,7 +12,7 @@
   <div class="card shadow">
     <div class="card-body">
       <h4 class="card-title text-center mb-4">PharmTech Assets Login</h4>
-      <form>
+      <form (ngSubmit)="onSubmit()">
         <div class="form-group mb-3">
           <label for="username">Username</label>
           <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
@@ -34,8 +34,6 @@
   </div>
 </div>
 
-<!-- Add your JavaScript links here -->
-
 </body>
-<app-footer></app-footer>
+
 </html>

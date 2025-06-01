@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from "../footer/footer.component";
+// import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-login',
-  imports: [FooterComponent],
+  imports: [/*FooterComponent*/],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+onSubmit() {
+throw new Error('Method not implemented.');
+}
 
 }
