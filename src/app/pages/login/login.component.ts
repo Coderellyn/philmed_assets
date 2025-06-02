@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-login',
@@ -10,6 +9,6 @@ import { Component } from '@angular/core';
 export class LoginComponent {
 onSubmit() {
 throw new Error('Method not implemented.');
-}
 
+}
 }

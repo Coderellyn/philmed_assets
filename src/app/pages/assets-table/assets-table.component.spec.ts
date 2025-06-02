@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WeekdayPickerComponent } from './weekday-picker.component';
+import { AssetsTableComponent } from './assets-table.component';
 
-describe('WeekdayPickerComponent', () => {
-  let component: WeekdayPickerComponent;
-  let fixture: ComponentFixture<WeekdayPickerComponent>;
+describe('AssetsTableComponent', () => {
+  let component: AssetsTableComponent;
+  let fixture: ComponentFixture<AssetsTableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WeekdayPickerComponent]
+      imports: [AssetsTableComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WeekdayPickerComponent);
+    fixture = TestBed.createComponent(AssetsTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
